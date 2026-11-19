@@ -45,7 +45,7 @@ export function Contact() {
         </div>
         <img
           className="contact-portrait"
-          src="/lauri-roponen.png"
+          src={`${import.meta.env.BASE_URL}lauri-roponen.png`}
           alt={isFinnish ? "Lauri Roponen" : "Lauri Roponen"}
         />
       </div>
